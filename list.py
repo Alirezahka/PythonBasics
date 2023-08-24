@@ -43,10 +43,29 @@ print(out_of_market.title() + ' Laptops are out of the market RN.')
 print(tech_companies)
 
 
-# Sorting a list 
+# Sorting a list Permanently/Temporarily
 Companies = ['asus', 'lenovo', 'macos','acer', 'del', 'hp', 'sony', 'microsoft', 'msi', 'razor', 'samsung', 'xiaomi', 'huawei']
 
-Companies.sort()
+# Temporarily
 
+print(sorted(Companies))    # to maintain the original order of a list we use sorted() istead of sort()
+
+# Permanently
+
+Companies.sort()    #alphabetical order
+Companies.sort(reverse=True)    #reverse alphabetical order
 
 print(Companies)
+
+# Reverse the order of a list
+car_companies = ['Bmw', 'Lexus', 'toyota', 'porsche', 'Benz']
+
+car_companies.reverse()
+print(car_companies)
+
+# Finding the Length of a List
+
+print(len(car_companies))   # It returms the number of items that presents in a list.
+
+
+
