@@ -106,3 +106,30 @@ for name in Names:
     if index >= 4:
         print(f'here is our {index}th audience, and his/her name is {name}.')
     index += 1
+
+
+# Copy a list
+# To copy a list, you can make a slice that includes the entire original list by ([:])
+
+fruits = ['apple', 'orange', 'peach', 'banana', 'grape']
+fruits_copy = fruits[:]
+
+fruits.append('avocado')
+fruits.remove('peach')
+fruits_copy.append('blueberries')
+fruits_copy.append('watermellon')
+
+print(fruits)
+print(fruits_copy)
+
+fruits = fruits_copy
+
+print(fruits_copy)
+print(fruits)
+
+# Using for loops to print specified items of a list
+index = 0
+for fruit in fruits:
+    if index < 3:
+        print(fruit)
+    index += 1
