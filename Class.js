@@ -168,3 +168,45 @@ Fruits.push('Pear');
 Fruits.push('Grape');
 
 console.log(Fruits);
+
+// Deleting array elements
+
+jobs = ['dentist', 'plumber', 'engineer', 'actor', 'nurse', 'baker', 'lawyer'];
+
+delete jobs[1];
+jobs[7] = undefined;
+
+jobs.forEach(function(show, i) {
+    console.log("jobs[" + i +"], ", show);
+});
+
+// Deleting an element from array with splice(begin, count)
+
+jobs.splice(3, 1);
+
+console.log(jobs);
+
+for (var i=0; i<jobs.length; i++) console.log(`jobs [${i}] = ${jobs[i]}.`);
+
+
+jobs.forEach(function(el, i) {
+    console.log("\tJobs [" + i + "], ", el);
+});
+
+// Filtering elements in an array { .filter(callback) .map(callback) }
+
+var Items = new Array('Element 1', 'Element 2', 'Element 3', 'Element 4', 'Element 5', 'Element 6', 'Element 7', 'Element 8');
+
+Items = Items.filter(function(element, index) {
+    if (index >= 2) return true;
+});
+
+console.log("\n Items with index greater than two =", Items);
+
+// var EvenNumbers = 
+
+Items = Items.filter(function(element, index) {
+    if (index < 4) return true;
+});
+
+console.log("Items with index lesser than fours : ", Items);
