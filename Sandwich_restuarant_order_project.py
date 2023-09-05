@@ -81,3 +81,5 @@ while still_orders:
         total_sale = len(finished_sandwiches)
         print(f"\nToday total sales: {total_sale}")
     break
+
+# It took me more than 1.5 hours to come up with this brilliant idea
