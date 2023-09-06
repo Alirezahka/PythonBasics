@@ -57,7 +57,7 @@ print("I'm {} and I'm {} years-old.".format(name, age ))
 # Multiplication(*): a * b
 # Division(/): a / b    # It always returns float as an answer
 # Modulus(%): a % b
-# Floor division(//): a // b
+# Floor division(//): a // b    # (//) gives the answer without the remainder, or it floors the answer
 # Exponentiation(**): a ** b
 
 # Python supports the order of opperations 
