@@ -73,3 +73,68 @@ print(total)  # it produces 0.300000000000004.
 # Underscores in Numbers
 my_earning = 20_000_000     # We use underscores to make large numbers more readable.
 print(my_earning)   # Python prints only the digits.
+
+# Logical operators
+# pyhton uses _and_, _or_, _not_ as logical operators. Logical operators are used to combine conditional statements
+
+print(3 > 2 and 4 > 5) # True-- because both statements are true
+print(3 < 2 and 4 > 5) # False-- because one of the statements is false
+print(3 < 2 and 4 < 5) # False-- because both statements are false
+print('True and True:', True and True)
+
+print(3 > 2 or 4 > 5) # True-- because both statements are true
+print(3 < 2 or 4 > 5) # True-- because one of the statements is True
+print(3 < 2 or 4 < 5) # False-- because both statements are false
+print('True or False', True or False)
+
+print(not 3 < 2) # True
+print(not 4 > 5) # False
+print(not True) # False
+print(not not False) # False
+
+### Exercises
+
+# calculating the area of a circle
+radius = int()
+pi = 3.14
+
+area_of_circle = pi * radius ** 2
+print('Area of a circle: ', area_of_circle)
+
+# Calculating the perimeter of a circle
+perimeter_of_circle = 2 * pi * radius
+print('The perimeter of a circle: ', perimeter_of_circle)
+
+# Area of a rectangle
+length = int()
+width = int()
+
+area_of_rectangle = length * width
+print('Area of a rectangle: ', area_of_rectangle)
+
+# Area of a triangle
+base = int()
+height = int()
+
+area_of_triangle = 0.5 * base * height
+print('Area of a triangle: ', area_of_triangle)
+
+# Calculating the weight of an object
+mass = int()
+gravity = 9.807
+
+weight = mass * gravity
+print('The weight of an object in earth: ', weight)
+
+# Calculating the weight of an object in Mars
+gravity_in_mars = 3.71
+
+weight_in_mars = mass * gravity_in_mars
+print('The weight of an object in Mars: ', weight_in_mars)
+
+## Calculating the volume of a sphere 
+diameter = int()
+radius = 0.5 * diameter
+
+volume_of_sphere = (4/3) * pi * radius ** 3
+print('The volume of a sphere: ', volume_of_sphere)
