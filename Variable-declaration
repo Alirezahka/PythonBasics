@@ -52,16 +52,16 @@ print("I'm {} and I'm {} years-old.".format(name, age ))
 
 # Numbers (integers) and opperations:
 
-addition = 2 + 3
-subtraction = 2 - 3
-multiplication = 2 * 3
-division = 2 / 3        # you'll always get a float for answer.
-exponention = 2 ** 3
-addition = 2 + 3
-addition = 2 + 3
+# Addition(+): a + b
+# Subtraction(-): a - b
+# Multiplication(*): a * b
+# Division(/): a / b    # It always returns float as an answer
+# Modulus(%): a % b
+# Floor division(//): a // b
+# Exponentiation(**): a ** b
 
 # Python supports the order of opperations 
-# so in case you have specific precedence in mind, use parantheses to modify the order.
+# so in case you have specific precedence in mind, use parantheses to specify the order you have in your mind.
 (2 + 3) * 4
 
 # Floats: any number with a decimal point in Python.
